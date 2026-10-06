@@ -58,6 +58,10 @@ Each skill is a folder with a `SKILL.md` that follows the [Agent Skills spec](ht
 <category>/<skill-name>/SKILL.md
 ```
 
+## Free SEO checklist
+
+Want to check a site by hand first? Get the [SEO launch checklist](https://il.ly/growth): 71 checks, each with a test you can run and a pass condition, covering crawling, page basics, speed, content, links and AI answers. Signing up also adds you to my newsletter, where I share what I learn building LinkDR, GenPPT and AI SEO Tracker. Unsubscribe anytime.
+
 ## License
 
 MIT, by [Ilias Ism](https://il.ly)
