@@ -31,12 +31,7 @@ npx skills add Illyism/seo-skills --list
 | [blitz-copy](copywriting/blitz-copy/SKILL.md) | Landing pages, headlines, SEO titles, cold emails and posts using Hook → Spike → Payoff |
 | [understand-customers](copywriting/understand-customers/SKILL.md) | Research customer pains and language before writing copy |
 
-## Other skills
-
-| Skill | Category | What it does |
-| ----- | -------- | ------------ |
-| [eval](code/eval/SKILL.md) | Code | Minimal 1-file AI evals for prompts, models and production functions |
-| [extension-store-assets](product/extension-store-assets/SKILL.md) | Product | Chrome extension icons, store promo tiles, benefit slides and listing copy |
+Looking for developer skills like AI evals? See [Illyism/dev-skills](https://github.com/Illyism/dev-skills).
 
 ## Structure
 
