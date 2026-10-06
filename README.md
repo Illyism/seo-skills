@@ -24,6 +24,7 @@ npx skills add Illyism/skills --list
 | [blitz-copy](copywriting/blitz-copy/SKILL.md) | Copywriting | High-converting copy using dopamine psychology: Hook → Spike → Payoff |
 | [understand-customers](copywriting/understand-customers/SKILL.md) | Copywriting | Research and synthesize customer language before writing copy |
 | [blitz-seo](seo/blitz-seo/SKILL.md) | SEO | A focused 30-day sprint to rank one high-value page for one money keyword |
+| [seo-autopilot](seo/seo-autopilot/SKILL.md) | SEO | Daily agent that runs SEO end to end: health checks, fixes, articles, comparison pages, tools and AI answers |
 | [eval](code/eval/SKILL.md) | Code | Minimal 1-file AI evals for prompts, models, and production functions |
 | [extension-store-assets](product/extension-store-assets/SKILL.md) | Product | Chrome extension icons, store promo tiles, benefit slides, and listing copy |
 
