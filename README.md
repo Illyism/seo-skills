@@ -1,6 +1,6 @@
 # SEO Skills for AI Agents
 
-Open-source SEO skills for Claude Code, Cursor, Codex and any agent that reads `SKILL.md` files. Install one and your agent can run daily SEO checks, push a page from page 2 to page 1, track AI answers, and write the copy that ranks.
+Open-source SEO skills for Claude Code, Cursor, Codex and any agent that reads `SKILL.md` files. Install one and your agent can run daily SEO checks, fix title tags, refresh posts that slipped, buy backlinks, map search intent, and write the copy that ranks.
 
 Browse them at [il.ly/skills](https://il.ly/skills).
 
@@ -23,6 +23,23 @@ npx skills add Illyism/seo-skills --list
 | ----- | ------------ |
 | [seo-autopilot](seo/seo-autopilot/SKILL.md) | Daily agent that runs SEO end to end: site health checks, fixes, keyword map, articles, comparison pages, free tools, link drafts and AI answer tracking |
 | [blitz-seo](seo/blitz-seo/SKILL.md) | A 30-day sprint to rank one high-value page for one money keyword |
+| [seo-title-optimization](seo/seo-title-optimization/SKILL.md) | Rewrite and audit title tags, H1s and meta titles for rankings and click-through rate |
+| [blog-refresher](seo/blog-refresher/SKILL.md) | Refresh an existing post with a SERP gap analysis so it outranks the pages above it |
+| [linkdr](seo/linkdr/SKILL.md) | Buy managed backlinks from [LinkDR](https://linkdr.com): plan a DR-tier mix for a budget and send one checkout link |
+
+## Content skills
+
+| Skill | What it does |
+| ----- | ------------ |
+| [intro](content/intro/SKILL.md) | Short blog intros with a journey teaser, matched to listicle, how-to or definition intent |
+| [scribiz](content/scribiz/SKILL.md) | Transcripts, subtitles, summaries and chapters for any video with [Scribiz](https://scribiz.com), and video-to-blog workflows |
+
+## Marketing skills
+
+| Skill | What it does |
+| ----- | ------------ |
+| [customer-journey](marketing/customer-journey/SKILL.md) | Map the 5-stage awareness journey with the prompts people type into Google and ChatGPT at each stage |
+| [diff-marketing](marketing/diff-marketing/SKILL.md) | Turn recent commits and merged PRs into blog posts, launch posts, changelogs and emails |
 
 ## Copywriting skills
 
