@@ -25,6 +25,7 @@ npx skills add Illyism/seo-skills --list
 | [blitz-seo](seo/blitz-seo/SKILL.md) | A 30-day sprint to rank one high-value page for one money keyword |
 | [seo-title-optimization](seo/seo-title-optimization/SKILL.md) | Rewrite and audit title tags, H1s and meta titles for rankings and click-through rate |
 | [blog-refresher](seo/blog-refresher/SKILL.md) | Refresh an existing post with a SERP gap analysis so it outranks the pages above it |
+| [block-ai-scrapers](seo/block-ai-scrapers/SKILL.md) | Block AI coding agents (Claude Code, Cursor, OpenCode, Grok), WebFetch, and CLI scrapers while keeping verified Googlebot SEO intact and redirecting scrapes to your product URL |
 | [linkdr](seo/linkdr/SKILL.md) | Buy managed backlinks from [LinkDR](https://linkdr.com): plan a DR-tier mix for a budget and send one checkout link |
 
 ## Content skills
