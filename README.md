@@ -24,6 +24,7 @@ npx skills add Illyism/seo-skills --list
 | [seo-autopilot](seo/seo-autopilot/SKILL.md) | Daily agent that runs SEO end to end: site health checks, fixes, keyword map, articles, comparison pages, free tools, link drafts and AI answer tracking |
 | [blitz-seo](seo/blitz-seo/SKILL.md) | A 30-day sprint to rank one high-value page for one money keyword |
 | [seo-title-optimization](seo/seo-title-optimization/SKILL.md) | Rewrite and audit title tags, H1s and meta titles for rankings and click-through rate |
+| [seo-data](seo/seo-data/SKILL.md) | The numbers behind the other skills when no Ahrefs or Semrush is connected: Google's top 10, keyword volume and difficulty, backlinks, domain rating, traffic, who advertises on a term, via the [GoAnyAPI](https://goanyapi.com) MCP server |
 | [blog-refresher](seo/blog-refresher/SKILL.md) | Refresh an existing post with a SERP gap analysis so it outranks the pages above it |
 | [block-ai-scrapers](seo/block-ai-scrapers/SKILL.md) | Block AI coding agents (Claude Code, Cursor, OpenCode, Grok), WebFetch, and CLI scrapers while keeping verified Googlebot SEO intact and redirecting scrapes to your product URL |
 | [linkdr](seo/linkdr/SKILL.md) | Buy managed backlinks from [LinkDR](https://linkdr.com): plan a DR-tier mix for a budget and send one checkout link |
