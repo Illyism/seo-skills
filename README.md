@@ -1,7 +1,7 @@
 <h1 align="center">SEO Skills for Claude Code, Cursor &amp; AI Agents</h1>
 
 <p align="center">
-  <strong>16 open-source <code>SKILL.md</code> workflows that ship real SEO outputs — not 50-page audit PDFs nobody reads.</strong><br />
+  <strong>17 open-source <code>SKILL.md</code> workflows that ship real SEO outputs — not 50-page audit PDFs nobody reads.</strong><br />
   Run daily repo SEO on autopilot, rewrite title tags from live SERPs, refresh slipping blog posts, track ChatGPT &amp; Perplexity citations (GEO), block AI scrapers, repurpose videos into posts, and build DR 30–60+ backlinks.
 </p>
 
@@ -15,7 +15,7 @@
 <p align="center">
   <a href="https://il.ly/skills">Browse Web Catalog</a> ·
   <a href="#install">Quick Install</a> ·
-  <a href="#all-16-seo-skills">All 16 Skills</a> ·
+  <a href="#all-17-seo-skills">All 17 Skills</a> ·
   <a href="#end-to-end-seo-workflows">Workflows</a> ·
   <a href="#live-seo-data-via-mcp-servers">MCP Servers</a> ·
   <a href="#sponsors--seo-growth-stack">Sponsors</a> ·
@@ -31,7 +31,7 @@
 Install every skill in one command using the [`skills`](https://www.npmjs.com/package/skills) CLI, or install individual skills on demand:
 
 ```bash
-# Install all 16 SEO, GEO, link building & copywriting skills
+# Install all 17 SEO, GEO, directory submission, link building & copywriting skills
 npx skills add Illyism/seo-skills
 
 # Install a single skill (for example, daily autonomous repo SEO)
@@ -69,7 +69,7 @@ Every skill in `Illyism/seo-skills` is built to **end in a concrete, shippable o
 
 ---
 
-## All 16 SEO Skills
+## All 17 SEO Skills
 
 ### 1. Technical & On-Page SEO Skills
 
@@ -90,10 +90,11 @@ Every skill in `Illyism/seo-skills` is built to **end in a concrete, shippable o
 | [**`ai-seo-report`**](seo/ai-seo-report/SKILL.md) | Executive AI visibility brief synthesized from live prompt scans, cited competitor URLs, and share-of-voice shifts — zero raw JSON dumps | *"Give me this week's `ai-seo-report` brief and tell me why competitors beat us in ChatGPT"* |
 | [**`content-coverage`**](seo/content-coverage/SKILL.md) | Evidence-backed content plan and article drafts targeting the exact AI search prompt clusters where competitors get cited and your site is missing | *"Run `content-coverage` to plan and draft pages for our missing Perplexity & ChatGPT prompts"* |
 
-### 3. Off-Page SEO & Link Building Skills
+### 3. Off-Page SEO, Link Building & Directory Submissions
 
 | Skill | What it ships | Example prompt |
 | --- | --- | --- |
+| [**`directory-submissions`**](seo/directory-submissions/SKILL.md) | Autonomous startup, AI tool, MCP registry & GitHub Awesome directory submission workflow: builds `submission-manifest.json`, cascades 1 repo across 15+ MCP/agent registries, and works through 50 high-DR launchpads ([850+ directory database](https://linkdr.com/resources/directories)) | *"Run `directory-submissions` to generate our manifest and submit across Wave 1–3 directories"* |
 | [**`linkdr`**](seo/linkdr/SKILL.md) | Managed authority link-building planner for [LinkDR](https://linkdr.com): calculates a DR 30+ to DR 60+ backlink, niche-edit, or listicle mix for your budget and returns a single approval-gated checkout link | *"Plan a $1,000 DR 40–50+ backlink campaign for our SaaS homepage using `linkdr`"* |
 | [**`awesome-tools`**](seo/awesome-tools/SKILL.md) | Agent submission workflow for [Awesome Tools](https://awesome.tools) via JSON API or WebMCP to earn a verified `dofollow` SaaS directory backlink (free reciprocal path or instant Featured Launch) | *"Submit our app to `awesome-tools` and check eligibility for the free dofollow listing"* |
 
@@ -125,7 +126,7 @@ Skills compose naturally inside Claude Code, Cursor, and Codex. Four battle-test
 2. **Win Citations in ChatGPT, Perplexity & Google AI Overviews (GEO)**
    `customer-journey` *(map buyer prompts across 5 stages)* → `aiseotracker` *(scan live AI answers)* → `ai-seo-report` *(spot third-party listicles & missing topics)* → `content-coverage` *(ship pages covering unowned prompt clusters)*.
 3. **Launch a New Product from DR 0**
-   `understand-customers` *(extract buyer language)* → `blitz-copy` *(write the landing page)* → `awesome-tools` *(secure your first verified `dofollow` SaaS directory link)* → `blitz-seo` *(run a focused 30-day sprint on your #1 commercial keyword)*.
+   `understand-customers` *(extract buyer language)* → `blitz-copy` *(write the landing page)* → `directory-submissions` & `awesome-tools` *(cascade across 15+ MCP registries & 50+ high-DR directories)* → `blitz-seo` *(run a focused 30-day sprint on your #1 commercial keyword)*.
 4. **Autonomous Daily Repo SEO**
    Drop `seo-autopilot` on a daily schedule so your coding agent checks site health, verifies product claims against recent commits, refreshes decaying posts, and opens reviewable PRs — paired with `diff-marketing` every Friday to turn shipped code into distribution.
 
@@ -160,6 +161,7 @@ seo-skills/
 │   ├── aiseotracker/SKILL.md
 │   ├── ai-seo-report/SKILL.md
 │   ├── content-coverage/SKILL.md
+│   ├── directory-submissions/SKILL.md
 │   ├── linkdr/SKILL.md
 │   └── awesome-tools/SKILL.md
 ├── content/
@@ -175,9 +177,12 @@ seo-skills/
 
 ---
 
-## Free 71-Point SEO Launch Checklist
+## Free 71-Point SEO Checklist & 850+ Startup Directories
 
-Want to audit a site step by step? Grab the free **[SEO Launch Checklist](https://il.ly/growth)**: **71 pass/fail checks** with exact test commands across crawling, indexing, Core Web Vitals, on-page titles, content proof, authority backlinks, and AI search citations — plus my field notes from building and ranking SaaS products.
+Launching a new product or pushing a domain past DR 30? Pair these skills with two companion playbooks:
+
+- **[71-Point SEO Launch Checklist & Growth Playbook (`il.ly/growth`)](https://il.ly/growth)** — Free **71 pass/fail checks** (each with an exact test command), `seo-autopilot` repo setup, and the **50-directory 5-wave launch tracker** (`il.ly/growth/directories`).
+- **[850+ Startup, AI Tool & MCP Directories (`linkdr.com/resources/directories`)](https://linkdr.com/resources/directories)** — Filter **856+ verified launchpads, software review sites, MCP registries, and GitHub Awesome lists** across 14 categories by Domain Rating (DR), monthly traffic, free vs. paid pricing, and `dofollow`/`nofollow` link type — complete with direct submit URLs and a copy-paste Claude Code / Cursor submission prompt.
 
 ---
 
@@ -216,7 +221,7 @@ Modern search visibility across Google and AI answer engines comes down to five 
 1. **Search Intent & SERP Title Engineering** (`seo-title-optimization`, `customer-journey`)
 2. **First-Hand Proof Content & Decay Refreshes** (`blog-refresher`, `intro`, `scribiz`)
 3. **Technical Crawlability & Bot Hygiene** (`seo-autopilot`, `block-ai-scrapers`)
-4. **Authority Off-Page Backlinks & Digital PR** (`linkdr`, `awesome-tools`)
+4. **Authority Off-Page Backlinks & Directory Distribution** (`directory-submissions`, `linkdr`, `awesome-tools`)
 5. **Generative Engine Optimization (GEO / AEO)** (`aiseotracker`, `ai-seo-report`, `content-coverage`)
 
 ---

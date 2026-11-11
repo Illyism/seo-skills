@@ -1,0 +1,19 @@
+{
+  "name": "seo-skills",
+  "version": "1.2.0",
+  "description": "17 open-source SEO, GEO, backlink, directory submission, and copywriting skills for AI coding agents.",
+  "mcpServers": {
+    "linkdr": {
+      "type": "http",
+      "url": "https://linkdr.com/mcp"
+    },
+    "aiseotracker": {
+      "type": "http",
+      "url": "https://aiseotracker.com/mcp"
+    },
+    "awesome-tools": {
+      "type": "http",
+      "url": "https://awesome.tools/mcp"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "mcpServers": {
+    "linkdr": {
+      "type": "http",
+      "url": "https://linkdr.com/mcp"
+    },
+    "aiseotracker": {
+      "type": "http",
+      "url": "https://aiseotracker.com/mcp"
+    },
+    "awesome-tools": {
+      "type": "http",
+      "url": "https://awesome.tools/mcp"
+    }
+  }
+}

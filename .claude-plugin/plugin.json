@@ -1,0 +1,32 @@
+{
+  "name": "seo-skills",
+  "version": "1.2.0",
+  "description": "17 open-source SEO, GEO, link building, directory submission, content refresh, and copywriting skills (SKILL.md) for Claude Code, Cursor, Codex, and AI agents.",
+  "author": {
+    "name": "Ilias Ism",
+    "url": "https://il.ly"
+  },
+  "homepage": "https://il.ly/skills",
+  "repository": "https://github.com/Illyism/seo-skills",
+  "license": "MIT",
+  "keywords": [
+    "seo",
+    "seo-skills",
+    "geo",
+    "ai-seo",
+    "link-building",
+    "directory-submissions",
+    "content-marketing",
+    "copywriting",
+    "skills",
+    "claude-code",
+    "cursor"
+  ],
+  "skills": [
+    "./seo",
+    "./content",
+    "./marketing",
+    "./copywriting"
+  ],
+  "mcpServers": "./.mcp.json"
+}
