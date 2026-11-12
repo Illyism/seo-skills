@@ -1,6 +1,6 @@
 ---
 name: blitz-seo
-description: When the user wants to rank one high-value page fast, run a focused SEO sprint, or is stuck on page 2 for a money keyword. Also use when the user mentions "blitz seo", an SEO war room, a 30-day SEO sprint, or asks how to prioritize SEO when everything feels spread too thin.
+description: Runs a focused 30-day SEO sprint that concentrates search-intent alignment, internal link equity, first-hand proof, and targeted backlinks onto a single money page to push it into the Top 3. Use when a high-value page is stuck on Page 2, the user mentions "blitz seo" or a 30-day SEO sprint, or SEO effort is spread too thin across dozens of URLs.
 metadata:
   version: 1.0.0
   author: illyism
@@ -87,4 +87,4 @@ Original sprint: position #11 to page one by day 17, position #3 by day 30. Orga
 ## Related
 
 - Full article: https://il.ly/blog/blitz-seo
-- Conversion copy for the winning page: blitz-copy — https://il.ly/skills/blitz-copy
+- Conversion copy for the winning page: [blitz-copy](https://il.ly/skills/blitz-copy)

@@ -4,13 +4,13 @@ Use these as tone and structure references, not copy-paste templates. Patterns a
 
 ## Contents
 
-- [Listicle — search engines](#listicle-search-engines)
-- [How-to — reverse image search](#how-to-reverse-image-search)
-- [Definition — what is SEO](#definition-what-is-seo)
-- [Full output — definition guide (AI SEO style)](#full-output-definition-guide-ai-seo-style)
-- [Debate intro — frame a fight](#debate-intro-frame-a-fight)
+- [Listicle: search engines](#listicle-search-engines)
+- [How-to: reverse image search](#how-to-reverse-image-search)
+- [Definition: what is SEO](#definition-what-is-seo)
+- [Full output: definition guide (AI SEO style)](#full-output-definition-guide-ai-seo-style)
+- [Debate intro: frame a fight](#debate-intro-frame-a-fight)
 
-## Listicle — search engines
+## Listicle: search engines
 
 **Title:** 21 Best Search Engines in the World
 **Slug:** `search-engine-list`
@@ -23,7 +23,7 @@ Explore our list of the best search engines in the world (grouped by type, in no
 
 ---
 
-## How-to — reverse image search
+## How-to: reverse image search
 
 **Title:** How to Do a Reverse Image Search (Desktop and Mobile)
 **Slug:** `reverse-image-search`
@@ -45,7 +45,7 @@ And how you can get attribution for any of your uncredited images.
 
 ---
 
-## Definition — what is SEO
+## Definition: what is SEO
 
 **Title:** What Is SEO? Meaning, Examples & How to Optimize Your Site
 **Slug:** `what-is-seo`
@@ -63,7 +63,7 @@ In practice, SEO typically involves:
 
 ---
 
-## Full output — definition guide (AI SEO style)
+## Full output: definition guide (AI SEO style)
 
 Modeled on [Semrush's AI SEO intro](https://www.semrush.com/blog/ai-seo/).
 
@@ -95,7 +95,7 @@ Here's what to know before you optimize for citations.
 
 ---
 
-## Debate intro — frame a fight
+## Debate intro: frame a fight
 
 From [Max Marchione's BPC-157 article](https://x.com/maxmarchione/article/2061492144636920206). The opening:
 

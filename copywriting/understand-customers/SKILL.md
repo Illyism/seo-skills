@@ -1,6 +1,6 @@
 ---
 name: understand-customers
-description: When the user wants to deeply understand their ideal customer before writing copy — pains, desires, inner monologue, and language. Also use when the user mentions "empathy engine", "know your target", "customer pain points", or asks to research their audience before writing Blitz Copy.
+description: Builds a buyer-psychology research brief covering customer pains, switching triggers, objections, inner monologue, and verbatim phrasing before writing a word of copy. Use when researching an ICP before landing page or ad copy, or when the user mentions "understand customers", "empathy engine", or "customer pain points".
 metadata:
   version: 1.0.0
   author: illyism

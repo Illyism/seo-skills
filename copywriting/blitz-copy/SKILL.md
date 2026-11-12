@@ -1,6 +1,6 @@
 ---
 name: blitz-copy
-description: When the user wants high-converting copy for landing pages, headlines, cold emails, X/LinkedIn posts, video intros, or SEO titles — and already knows their audience. Also use when the user mentions "blitz copy", "dopamine copywriting", hooks, or asks to rewrite flat copy that explains instead of sells. For audience research first, use the understand-customers skill.
+description: Writes high-converting landing pages, hero headlines, cold outreach emails, social hooks, video intros, and SERP titles using the Hook, Spike, and Payoff copywriting system. Use when rewriting flat marketing copy that explains instead of sells, or when the user mentions "blitz copy", "dopamine copywriting", or conversion hooks.
 metadata:
   version: 1.0.0
   author: illyism
@@ -25,7 +25,7 @@ If the copy explains features before triggering a feeling, rewrite it.
 
 ## Initial Assessment
 
-Blitz Copy only works if you know the target cold. **If audience research hasn't been done yet**, use the [understand-customers](https://il.ly/skills/understand-customers) skill first — it walks through the Nightmare Scenario, Magic Wand Outcome, inner monologue, and language bank.
+Blitz Copy only works if you know the target cold. **If audience research hasn't been done yet**, use the [understand-customers](https://il.ly/skills/understand-customers) skill first to map the Nightmare Scenario, Magic Wand Outcome, inner monologue, and language bank.
 
 **Check for project context:** if `.cursor/project-context.md` or `.claude/project-context.md` exists, read it for product, audience, and positioning. Otherwise, ask the user or infer from the given context before writing.
 
@@ -33,13 +33,13 @@ Blitz Copy only works if you know the target cold. **If audience research hasn't
 
 Write in this exact sequence:
 
-1. **Identity Trigger 🧠** — Make them feel instantly recognized.
+1. **Identity Trigger 🧠:** Make them feel instantly recognized.
    > "You're not disorganized. You're drowning in 42 browser tabs and guilt."
-2. **Emotional Hook 🔥** — Surface a hidden frustration or desire.
+2. **Emotional Hook 🔥:** Surface a hidden frustration or desire.
    > "You've tried every productivity app. None of them stuck past day 3."
-3. **Mini Cliffhanger ❓** — Build tension, keep them reading.
+3. **Mini Cliffhanger ❓:** Build tension, keep them reading.
    > "We tested this on 1,324 people. Here's what happened next..."
-4. **Specific Outcome 💡** — Promise a concrete, desirable payoff.
+4. **Specific Outcome 💡:** Promise a concrete, desirable payoff.
    > "Reclaim 2 hours a day, without changing your habits."
 
 ## Dopamine Triggers
@@ -89,4 +89,4 @@ Pull at least 2-3 of these neurochemical levers per piece:
 ## Related
 
 - Full article: https://il.ly/blog/blitz-copy
-- Companion strategy: Blitz SEO — https://il.ly/blog/blitz-seo
+- Companion strategy: [Blitz SEO](https://il.ly/blog/blitz-seo)

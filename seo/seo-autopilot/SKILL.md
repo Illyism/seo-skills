@@ -1,6 +1,7 @@
 ---
 name: seo-autopilot
-description: When the user wants an agent to run SEO for a product end to end on a daily schedule, with state kept in a seo/ folder in the repo. Covers site health checks, fact checks against commits, page 2 to page 1 pushes, AI answer tracking, competitor sitemap diffs, a monthly keyword map, articles, comparison pages, free tools and link drafts. Also use when the user mentions "seo autopilot" or asks for a daily SEO run.
+description: >-
+  Runs end-to-end daily SEO for a product inside its repository with persistent state in seo/, covering site health checks, commit fact-checks, Page 2 to Page 1 pushes, AI answer tracking, competitor sitemap diffs, monthly keyword maps, articles, comparison pages, free tools, and link drafts. Use when the user mentions "seo autopilot", wants autonomous daily SEO PRs, or asks an agent to own a site's ongoing search growth.
 metadata:
   version: 1.0.0
   author: illyism

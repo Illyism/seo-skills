@@ -1,7 +1,7 @@
 <h1 align="center">SEO Skills for Claude Code, Cursor &amp; AI Agents</h1>
 
 <p align="center">
-  <strong>30 open-source <code>SKILL.md</code> workflows that ship real SEO outputs — not 50-page audit PDFs nobody reads.</strong><br />
+  <strong>30 open-source <code>SKILL.md</code> workflows that ship real SEO outputs instead of 50-page audit PDFs nobody reads.</strong><br />
   Run daily repo SEO on autopilot, pull live Ahrefs &amp; DataForSEO SERP gaps, build a First-Hand Proof KB, ship honest <code>/vs/</code> pages, de-slop MDX for AI search, track ChatGPT &amp; Perplexity citations (GEO), and build DR 30–60+ backlinks.
 </p>
 
@@ -22,7 +22,7 @@
   <a href="#faq">FAQ</a>
 </p>
 
-![SEO Skills for Claude Code, Cursor, and OpenAI Codex — installable SKILL.md workflows that turn AI coding agents into Google #1 rankings](assets/seo-skills-hero.jpg)
+![SEO Skills for Claude Code, Cursor, and OpenAI Codex: installable SKILL.md workflows that turn AI coding agents into Google #1 rankings](assets/seo-skills-hero.jpg)
 
 ---
 
@@ -43,7 +43,7 @@ npx skills add Illyism/seo-skills --list
 
 ### Works Across Every Coding Agent & AI Chat App
 
-Each skill is a self-contained folder with a plain Markdown `SKILL.md` following the open [Agent Skills specification](https://agentskills.io). Your agent loads only the short `name` and `description` at startup and opens the full instructions when your prompt matches — keeping your context window fast and clean.
+Each skill is a self-contained folder with a plain Markdown `SKILL.md` following the open [Agent Skills specification](https://agentskills.io). Your agent loads only the short `name` and `description` at startup and opens the full instructions only when your prompt matches, keeping your context window fast and clean.
 
 | Environment | Where `SKILL.md` lives | How to install |
 | --- | --- | --- |
@@ -66,7 +66,7 @@ Every skill in `Illyism/seo-skills` is built to **end in a concrete, shippable o
 - **Focused 30-day execution:** Instead of spreading effort across 200 low-intent keywords, `blitz-seo` concentrates technical fixes, internal links, SERP proof, and authority links onto **one money page** until it reaches Page 1.
 - **Google + AI Search (GEO / AEO) together:** Map the exact prompts buyers ask ChatGPT, Perplexity, Gemini, and Google AI Overviews, measure live citation share, and ship pages and third-party placements that close missing prompt clusters.
 
-![SEO Skills for AI Coding Agents — ship technical fixes, SERP-backed content refreshes, authority backlinks, and Google #1 rankings](assets/seo-skills-output-engine.webp)
+![SEO Skills for AI Coding Agents: ship technical fixes, SERP-backed content refreshes, authority backlinks, and Google #1 rankings](assets/seo-skills-output-engine.webp)
 
 ---
 
@@ -95,7 +95,7 @@ Every skill in `Illyism/seo-skills` is built to **end in a concrete, shippable o
 | --- | --- | --- |
 | [**`customer-journey`**](marketing/customer-journey/SKILL.md) | 5-stage buyer awareness map pairing traditional Google keywords with the conversational prompts buyers type into ChatGPT, Claude, and Perplexity at each stage | *"Map the 5-stage `customer-journey` and AI search prompts for our B2B analytics SaaS"* |
 | [**`aiseotracker`**](seo/aiseotracker/SKILL.md) | One-time OAuth MCP setup (`https://aiseotracker.com/api/agent/mcp`) and project wiring for [AI SEO Tracker](https://aiseotracker.com) to track brand mentions, citations, and competitors across ChatGPT, Perplexity, Gemini, Copilot & Google AI Overviews | *"Connect `aiseotracker` and check how ChatGPT and Perplexity rank our domain"* |
-| [**`ai-seo-report`**](seo/ai-seo-report/SKILL.md) | Executive AI visibility brief synthesized from live prompt scans, cited competitor URLs, and share-of-voice shifts — zero raw JSON dumps | *"Give me this week's `ai-seo-report` brief and tell me why competitors beat us in ChatGPT"* |
+| [**`ai-seo-report`**](seo/ai-seo-report/SKILL.md) | Executive AI visibility brief synthesized from live prompt scans, cited competitor URLs, and share-of-voice shifts, with zero raw JSON dumps | *"Give me this week's `ai-seo-report` brief and tell me why competitors beat us in ChatGPT"* |
 | [**`content-coverage`**](seo/content-coverage/SKILL.md) | Evidence-backed content plan and article drafts targeting the exact AI search prompt clusters where competitors get cited and your site is missing | *"Run `content-coverage` to plan and draft pages for our missing Perplexity & ChatGPT prompts"* |
 | [**`reddit-serp`**](seo/reddit-serp/SKILL.md) | Finds unlocked Reddit threads that already rank Page 1 on Google or get cited by AI Overviews and ChatGPT, checks subreddit rules via JSON, and writes `seo/reddit-serp-queue.md` with practitioner replies that survive moderation | *"Run `reddit-serp` to find unlocked Page-1 Reddit threads for our category and draft replies"* |
 
@@ -146,7 +146,7 @@ Skills compose naturally inside Claude Code, Cursor, and Codex. Six battle-teste
 5. **Launch a New Product from DR 0**
    `understand-customers` *(extract buyer language)* → `blitz-copy` *(write the landing page)* → `directory-submissions` & `awesome-tools` *(cascade across 15+ MCP registries & 50+ high-DR directories)* → `blitz-seo` *(run a focused 30-day sprint on your #1 commercial keyword)*.
 6. **Autonomous Daily Repo SEO**
-   Drop `seo-autopilot` on a daily schedule so your coding agent checks site health, verifies product claims against recent commits, refreshes decaying posts, and opens reviewable PRs — paired with `diff-marketing` every Friday to turn shipped code into distribution.
+   Drop `seo-autopilot` on a daily schedule so your coding agent checks site health, verifies product claims against recent commits, refreshes decaying posts, and opens reviewable PRs. Pair it with `diff-marketing` every Friday to turn shipped code into distribution.
 
 ---
 
@@ -212,8 +212,8 @@ seo-skills/
 
 Launching a new product or pushing a domain past DR 30? Pair these skills with two companion playbooks:
 
-- **[71-Point SEO Launch Checklist & Growth Playbook (`il.ly/growth`)](https://il.ly/growth)** — Free **71 pass/fail checks** (each with an exact test command), `seo-autopilot` repo setup, and the **50-directory 5-wave launch tracker** (`il.ly/growth/directories`).
-- **[850+ Startup, AI Tool & MCP Directories (`linkdr.com/resources/directories`)](https://linkdr.com/resources/directories)** — Filter **856+ verified launchpads, software review sites, MCP registries, and GitHub Awesome lists** across 14 categories by Domain Rating (DR), monthly traffic, free vs. paid pricing, and `dofollow`/`nofollow` link type — complete with direct submit URLs and a copy-paste Claude Code / Cursor submission prompt.
+- **[71-Point SEO Launch Checklist & Growth Playbook (`il.ly/growth`)](https://il.ly/growth):** Free **71 pass/fail checks** (each with an exact test command), `seo-autopilot` repo setup, and the **50-directory 5-wave launch tracker** (`il.ly/growth/directories`).
+- **[850+ Startup, AI Tool & MCP Directories (`linkdr.com/resources/directories`)](https://linkdr.com/resources/directories):** Filter **856+ verified launchpads, software review sites, MCP registries, and GitHub Awesome lists** across 14 categories by Domain Rating (DR), monthly traffic, free vs. paid pricing, and `dofollow`/`nofollow` link type, with direct submit URLs and a copy-paste Claude Code / Cursor submission prompt.
 
 ---
 
@@ -223,20 +223,20 @@ Launching a new product or pushing a domain past DR 30? Pair these skills with t
 
 | Product | What it does |
 | --- | --- |
-| <img src="https://www.google.com/s2/favicons?domain=linkdr.com&sz=32" width="16" height="16" alt="LinkDR" /> **[LinkDR](https://linkdr.com)** | **AI Link Building & Authority Backlinks** — Order vetted DR 30–60+ contextual backlinks, link insertions, and SaaS listicle placements. Approve every publisher site before placement (`15% off` monthly plans). |
-| <img src="https://www.google.com/s2/favicons?domain=aiseotracker.com&sz=32" width="16" height="16" alt="AI SEO Tracker" /> **[AI SEO Tracker](https://aiseotracker.com)** | **AI Search & GEO Visibility Tracking** — Track whether ChatGPT, Perplexity, Gemini, Copilot, and Google AI Overviews cite your brand, which competitor pages win citations, and which prompts to target next. |
-| <img src="https://www.google.com/s2/favicons?domain=genppt.com&sz=32" width="16" height="16" alt="GenPPT" /> **[GenPPT](https://genppt.com)** | **AI Presentation & Pitch Deck Maker** — Turn messy notes, client SEO reports, and financial PDFs into clean, editable PowerPoint (`.pptx`) and Google Slides decks in minutes. |
-| <img src="https://www.google.com/s2/favicons?domain=scribiz.com&sz=32" width="16" height="16" alt="Scribiz" /> **[Scribiz](https://scribiz.com)** | **Video & Audio Transcription + Screen OCR** — Turn YouTube videos, calls, and demos into speaker-labeled transcripts, on-screen code/slide OCR, chapters, and SEO blog drafts (`Web`, `macOS`, `Android`, `CLI`). |
-| <img src="https://www.google.com/s2/favicons?domain=awesome.tools&sz=32" width="16" height="16" alt="Awesome Tools" /> **[Awesome Tools](https://awesome.tools)** | **Curated SaaS & Developer Tools Directory** — Discover hand-picked software tools or submit your own product to earn a verified `dofollow` backlink. |
-| <img src="https://www.google.com/s2/favicons?domain=seoroast.com&sz=32" width="16" height="16" alt="SEO Roast" /> **[SEO Roast](https://seoroast.com)** | **20-Minute Video SEO Teardown** — Get a blunt, recorded screen-share audit of your site's rankings, SERP title leaks, backlink gaps, and 90-day growth plan. |
-| <img src="https://www.google.com/s2/favicons?domain=xoutlier.com&sz=32" width="16" height="16" alt="XOutlier" /> **[XOutlier](https://xoutlier.com)** | **Viral X Outlier Finder (Free Chrome Extension)** — Spot outlier posts and proven hooks across `390,000+` creators right inside X to distribute what you ship. |
+| <img src="https://www.google.com/s2/favicons?domain=linkdr.com&sz=32" width="16" height="16" alt="LinkDR" /> **[LinkDR](https://linkdr.com)** | **AI Link Building & Authority Backlinks:** Order vetted DR 30–60+ contextual backlinks, link insertions, and SaaS listicle placements. Approve every publisher site before placement (`15% off` monthly plans). |
+| <img src="https://www.google.com/s2/favicons?domain=aiseotracker.com&sz=32" width="16" height="16" alt="AI SEO Tracker" /> **[AI SEO Tracker](https://aiseotracker.com)** | **AI Search & GEO Visibility Tracking:** Track whether ChatGPT, Perplexity, Gemini, Copilot, and Google AI Overviews cite your brand, which competitor pages win citations, and which prompts to target next. |
+| <img src="https://www.google.com/s2/favicons?domain=genppt.com&sz=32" width="16" height="16" alt="GenPPT" /> **[GenPPT](https://genppt.com)** | **AI Presentation & Pitch Deck Maker:** Turn messy notes, client SEO reports, and financial PDFs into clean, editable PowerPoint (`.pptx`) and Google Slides decks in minutes. |
+| <img src="https://www.google.com/s2/favicons?domain=scribiz.com&sz=32" width="16" height="16" alt="Scribiz" /> **[Scribiz](https://scribiz.com)** | **Video & Audio Transcription + Screen OCR:** Turn YouTube videos, calls, and demos into speaker-labeled transcripts, on-screen code/slide OCR, chapters, and SEO blog drafts (`Web`, `macOS`, `Android`, `CLI`). |
+| <img src="https://www.google.com/s2/favicons?domain=awesome.tools&sz=32" width="16" height="16" alt="Awesome Tools" /> **[Awesome Tools](https://awesome.tools)** | **Curated SaaS & Developer Tools Directory:** Discover hand-picked software tools or submit your own product to earn a verified `dofollow` backlink. |
+| <img src="https://www.google.com/s2/favicons?domain=seoroast.com&sz=32" width="16" height="16" alt="SEO Roast" /> **[SEO Roast](https://seoroast.com)** | **20-Minute Video SEO Teardown:** Get a blunt, recorded screen-share audit of your site's rankings, SERP title leaks, backlink gaps, and 90-day growth plan. |
+| <img src="https://www.google.com/s2/favicons?domain=xoutlier.com&sz=32" width="16" height="16" alt="XOutlier" /> **[XOutlier](https://xoutlier.com)** | **Viral X Outlier Finder (Free Chrome Extension):** Spot outlier posts and proven hooks across `390,000+` creators right inside X to distribute what you ship. |
 
 ---
 
 ## FAQ
 
 ### What are SEO skills for AI agents?
-An **SEO skill** is a portable folder containing a `SKILL.md` file with structured instructions, quality gates, and output templates that teach coding and research agents (Claude Code, Cursor, OpenAI Codex, OpenCode, Windsurf) how to execute specialized search engine optimization workflows — from technical audits and title tag rewrites to content refreshes, GEO citation tracking, and backlink planning.
+An **SEO skill** is a portable folder containing a `SKILL.md` file with structured instructions, quality gates, and output templates that teach coding and research agents (Claude Code, Cursor, OpenAI Codex, OpenCode, Windsurf) how to execute specialized search engine optimization workflows, covering technical audits, title tag rewrites, content refreshes, GEO citation tracking, and backlink planning.
 
 ### How do I use these SEO skills in Claude Code or Cursor?
 Run `npx skills add Illyism/seo-skills` in your project root (or globally). Claude Code and Cursor automatically index each skill's `name` and `description` and load the full `SKILL.md` whenever you ask for an SEO sprint, title audit, blog refresh, scraper block, or backlink plan. You can also invoke any skill explicitly by name (for example, *"Use `blog-refresher` on `content/blog/post.mdx`"*).
@@ -248,7 +248,7 @@ Yes. Open **[il.ly/skills](https://il.ly/skills)**, click any skill, and hit **C
 A **skill (`SKILL.md`)** teaches the agent *how to do the job* (the step-by-step methodology, SERP rules, formatting, and approval gates). An **MCP server** connects the agent to *live external data and actions* (Google Search Console metrics, live SERPs, AI citation scans, video transcripts, or backlink checkouts). Using both together gives your agent live search data plus senior-level SEO judgment.
 
 ### Which core SEO skills matter most for ranking in 2026?
-Modern search visibility across Google and AI answer engines comes down to five compounding skills — all covered in this repo:
+Modern search visibility across Google and AI answer engines comes down to five compounding disciplines covered in this repo:
 1. **SERP Clustering, Competitor Research & Title Engineering** (`dataforseo-serp`, `ahrefs-research`, `seo-title-optimization`, `customer-journey`)
 2. **First-Hand Proof Content, Visuals & De-Slopping** (`proof-kb`, `seo-blog-images`, `unslop-seo`, `blog-refresher`, `intro`, `scribiz`, `youtube-seo`)
 3. **Technical Crawlability, Internal Routing & Migrations** (`seo-autopilot`, `seo-roast`, `internal-linking`, `domain-migration`, `block-ai-scrapers`)

@@ -70,15 +70,15 @@ Revoke access anytime at [account agents](https://aiseotracker.com/account/agent
 
 ## Call order
 
-1. **`aiseo_list_projects`** — get `projectSlug`. Never invent a slug.
+1. **`aiseo_list_projects`:** get `projectSlug`. Never invent a slug.
 2. Then as needed:
-   - `aiseo_get_scan` — running vs done (`done` = idle jobs, not complete coverage)
-   - `aiseo_list_prompts` — ranks, missing/opportunity prompts
-   - `aiseo_list_sources` — domains and URLs AI cites
-   - `aiseo_get_source_history` — whether one URL is still cited, per engine, and when it dropped
-   - `aiseo_list_snippets` — how models describe the brand
-   - `aiseo_list_competitors` — tracked rivals
-3. **`aiseo_add_prompts`** — only for queries the **user asked** to track (max 20 per call).
+   - `aiseo_get_scan`: running vs done (`done` = idle jobs, not complete coverage)
+   - `aiseo_list_prompts`: ranks, missing/opportunity prompts
+   - `aiseo_list_sources`: domains and URLs AI cites
+   - `aiseo_get_source_history`: whether one URL is still cited, per engine, and when it dropped
+   - `aiseo_list_snippets`: how models describe the brand
+   - `aiseo_list_competitors`: tracked rivals
+3. **`aiseo_add_prompts`:** only for queries the **user asked** to track (max 20 per call).
 
 ## First prompt (after connect)
 
@@ -92,10 +92,10 @@ For a missing-prompt content campaign, fetch `https://aiseotracker.com/content-c
 
 ## Respond to a visibility request
 
-1. **Confirm the brand** — domain or project name. Call `aiseo_list_projects` if unsure.
-2. **Check data** — if a scan may still be running, call `aiseo_get_scan`. If `state` is `running`, call it again later. If `dataStatus` is `no_data`, say the project needs a scan (create at `/new` or wait).
-3. **Answer from tool JSON only** — ranks, URLs, competitor names, snippet text.
-4. **Stop at drafts** — briefs, outreach, Reddit comments. Do not send email, post publicly, or charge a card.
+1. **Confirm the brand:** domain or project name. Call `aiseo_list_projects` if unsure.
+2. **Check data:** if a scan may still be running, call `aiseo_get_scan`. If `state` is `running`, call it again later. If `dataStatus` is `no_data`, say the project needs a scan (create at `/new` or wait).
+3. **Answer from tool JSON only:** ranks, URLs, competitor names, snippet text.
+4. **Stop at drafts:** briefs, outreach, Reddit comments. Do not send email, post publicly, or charge a card.
 
 ## What AI SEO Tracker does (and does not)
 

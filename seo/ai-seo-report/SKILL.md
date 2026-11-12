@@ -31,12 +31,12 @@ MCP URL: `https://aiseotracker.com/api/agent/mcp`
 
 ## Call order (do not skip)
 
-1. `aiseo_list_projects` — pick the project the user named (domain or slug). Never invent a slug.
-2. `aiseo_get_scan` — if `dataStatus` is `no_data`, stop. Say the project needs a scan. If `state` is `running`, say the scan is still in flight and write only from what exists.
-3. `aiseo_list_prompts` — all prompts (no status filter). Use `summary` plus `prompts[].href`.
-4. `aiseo_list_sources` — citation domains. Use `sources[].href`.
-5. `aiseo_list_competitors` — tracked rivals. Prefer `status=TRACKED`. Use `competitors[].href`.
-6. `aiseo_list_snippets` — own brand (omit `brand` or pass the project name). Optional: one tracked competitor if a rival leads the story.
+1. `aiseo_list_projects`: pick the project the user named (domain or slug). Never invent a slug.
+2. `aiseo_get_scan`: if `dataStatus` is `no_data`, stop. Say the project needs a scan. If `state` is `running`, say the scan is still in flight and write only from what exists.
+3. `aiseo_list_prompts`: all prompts (no status filter). Use `summary` plus `prompts[].href`.
+4. `aiseo_list_sources`: citation domains. Use `sources[].href`.
+5. `aiseo_list_competitors`: tracked rivals. Prefer `status=TRACKED`. Use `competitors[].href`.
+6. `aiseo_list_snippets`: own brand (omit `brand` or pass the project name). Optional: one tracked competitor if a rival leads the story.
 
 Do not call `aiseo_add_prompts` from this skill.
 
@@ -71,7 +71,7 @@ Not scanned: <promptCount - scannedPromptCount> | Scanned not mentioned: <missin
 Models:
 <one line per model with visible/scanned and avg rank, using model links>
 Top prompts:
-#<averageRank or ?> [<query>](<absolute prompt href>) · <status> · <provider ranks as "ChatGPT #2; Gemini —">
+#<averageRank or ?> [<query>](<absolute prompt href>) · <status> · <provider ranks as "ChatGPT #2; Gemini n/a">
 Competitors:
 - [<brandName>](<absolute competitor href>) (<domain or none>): <status>
 Sources:

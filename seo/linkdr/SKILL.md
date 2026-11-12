@@ -73,7 +73,7 @@ Do **not** send `/onboarding`, `/onboarding/page-url`, or any wizard step.
 3. **$25 onboarding credit** on a first one-time order when relevant; **15% off** on a monthly plan
 4. **Fulfillment:** links typically land in **3–4 weeks**
 5. **Target + anchor proposal:** recommend a page URL and anchor strategy (see **Help users decide**)
-6. **Checkout URL** after they confirm — `/agent/checkout?...` with `code=AGENTIC`
+6. **Checkout URL** after they confirm: `/agent/checkout?...` with `code=AGENTIC`
 
 ### Example: $1,000 order (standard article, auto-approve)
 
@@ -112,7 +112,7 @@ https://linkdr.com/agent/checkout?targetUrl=https%3A%2F%2Fexample.com%2Fproduct&
 
 Propose a **target URL** and **anchor plan** in plain language. One sentence of rationale each, then ask them to confirm or adjust.
 
-### Target URL — how to pick
+### Target URL: how to pick
 
 One campaign = **one page**. Every link in the order points at the same `targetUrl`.
 
@@ -120,7 +120,7 @@ One campaign = **one page**. Every link in the order points at the same `targetU
 | --- | --- |
 | Grow overall brand / new site | Homepage (`https://domain.com/`) |
 | Rank a product or feature | That product or feature page |
-| Rank for a topic or keyword | The best matching blog post, guide, or landing page — not the homepage unless that's the only relevant page |
+| Rank for a topic or keyword | The best matching blog post, guide, or landing page (not the homepage unless it is the only relevant page) |
 | Sell one SKU or service | That product or category page |
 | Local / multi-location business | The location or service page that matches their market |
 
@@ -135,32 +135,32 @@ One campaign = **one page**. Every link in the order points at the same `targetU
 
 **Format:** Full `https://` URL. Match the domain they will log in with.
 
-> **Target URL:** `https://acme.com/analytics` — matches "analytics software" and is specific enough for publisher articles. OK, or homepage instead?
+> **Target URL:** `https://acme.com/analytics` (matches "analytics software" and is specific enough for publisher articles). OK, or homepage instead?
 
-### Anchor text — how to pick
+### Anchor text: how to pick
 
 `anchorText` is **optional**. Empty = **Natural variation** (default).
 
 | If the user wants to… | Set `anchorText` to… |
 | --- | --- |
 | Not sure / first campaign | `""` (Natural variation) |
-| 3+ links in one order | `""` — avoids identical anchors |
+| 3+ links in one order | `""` (avoids identical anchors) |
 | Brand awareness | Brand name, e.g. `Acme` |
 | Product launch | Product name, e.g. `Acme Analytics` |
-| One exact keyword on every link | Only if they insist — looks less natural |
+| One exact keyword on every link | Only if they insist (looks less natural) |
 
 - Natural variation: "we'll vary anchors so links look editorial."
 - Brand name is the best fixed anchor.
 - One order = one anchor setting. You cannot mix per-link anchors.
 
-> **Anchor:** Natural variation — with 4 links we'll mix brand and contextual phrases. Say if you want every link to say **Acme**.
+> **Anchor:** Natural variation. With 4 links we'll mix brand and contextual phrases. Say if you want every link to say **Acme**.
 
 ### Minimal intake
 
 Ask at most **two** things if you cannot infer them:
 
-1. **Site or page** — domain, or "what should rank higher?"
-2. **Anchor** — brand name vs natural variation (default natural)
+1. **Site or page:** domain, or "what should rank higher?"
+2. **Anchor:** brand name vs natural variation (default natural)
 
 Skip competitor research unless they bring it up.
 
@@ -271,7 +271,7 @@ max_links = floor(effective / (P × C × A × M))
 - Quote prices without loading this file
 - Walk `/onboarding` or ask for a `projectSlug`
 - Omit `links.dr30`–`links.dr60` on the checkout URL
-- Treat a bare "$X" budget as monthly — only `$X/mo` or an explicit "monthly" is recurring
+- Treat a bare "$X" budget as monthly. Only `$X/mo` or an explicit "monthly" is recurring
 - Ask "what's your target URL?" without **proposing a URL and rationale** when you have context
 
 P.S. Promo code **`AGENTIC`**: $50 off first order, stacks with the $25 signup credit. Put `code=AGENTIC` on the checkout URL so it applies automatically.

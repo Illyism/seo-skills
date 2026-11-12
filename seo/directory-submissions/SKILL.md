@@ -11,7 +11,7 @@ metadata:
 
 Every software review site, startup launchpad, AI tool directory, MCP registry, and GitHub Awesome list asks for the same ~25 product fields in slightly different character lengths and aspect ratios.
 
-Instead of rewriting copy 100 times by hand, prepare **one `submission-manifest.json`**, propagate your repo across **15+ MCP & agent registries in one step**, and work through the **5-wave directory sequence** below — logging every submission idempotently in `submissions-log.json`.
+Instead of rewriting copy 100 times by hand, prepare **one `submission-manifest.json`**, propagate your repo across **15+ MCP & agent registries in one step**, and work through the **5-wave directory sequence** below while logging every submission idempotently in `submissions-log.json`.
 
 > **Companion resources:**
 > - **Full 850+ Directory Database (14 categories, DR, traffic, free vs. paid & `dofollow`/`nofollow` filters):** [https://linkdr.com/resources/directories](https://linkdr.com/resources/directories)
@@ -42,7 +42,7 @@ Before opening any form or Pull Request, build `submission-manifest.json` in you
     "mcp_description_100c": "Strict <=100 character summary required by Official MCP Registry validator.",
     "awesome_list_bullet": "- [YourProduct](https://yourproduct.com) - Factual one-line description with zero hype.",
     "description_160c": "15-25 word summary stating who it is for, what input it takes, and what output it produces (<=160c).",
-    "description_500c": "Two-paragraph factual overview (minimum 510 chars) covering the core workflow, supported integrations/formats, and concrete differentiators — zero em-dashes or AI buzzwords.",
+    "description_500c": "Two-paragraph factual overview (minimum 510 chars) covering the core workflow, supported integrations/formats, and concrete differentiators, with zero em dashes or AI buzzwords.",
     "key_features": [
       "Concrete input -> output capability",
       "Verification, speed, or accuracy guarantee",
@@ -81,12 +81,12 @@ Before opening any form or Pull Request, build `submission-manifest.json` in you
 
 Adding six tiny files to your public GitHub repository lets agent marketplaces index your product automatically:
 
-1. **`server.json`** — Keep `description` **strictly ≤ 100 characters** or the Official MCP Registry validator rejects it.
-2. **`glama.json`** — `{ "$schema": "https://glama.ai/mcp/schemas/server.json", "maintainers": ["your-github-handle"] }` (required to claim on Glama and pass `awesome-mcp-servers` CI).
-3. **`.cursor-plugin/plugin.json` + `.mcp.json`** — Indexed by **Cursor Marketplace** (`cursor.com/marketplace`) and **`cursor.directory`**.
-4. **`.claude-plugin/plugin.json` + `.mcp.json`** — Indexed by **Claude Code** plugin directories.
-5. **`gemini-extension.json` + repo topic `gemini-cli-extension`** — Auto-indexed within 24 hours by Google's **Gemini CLI Extensions** gallery.
-6. **`SKILL.md`** — Auto-indexed by **`skills.sh`**, **ClawHub (`clawhub.ai`)**, and **MCP Market (`mcpmarket.com`)**.
+1. **`server.json`:** Keep `description` **strictly ≤ 100 characters** or the Official MCP Registry validator rejects it.
+2. **`glama.json`:** `{ "$schema": "https://glama.ai/mcp/schemas/server.json", "maintainers": ["your-github-handle"] }` (required to claim on Glama and pass `awesome-mcp-servers` CI).
+3. **`.cursor-plugin/plugin.json` + `.mcp.json`:** Indexed by **Cursor Marketplace** (`cursor.com/marketplace`) and **`cursor.directory`**.
+4. **`.claude-plugin/plugin.json` + `.mcp.json`:** Indexed by **Claude Code** plugin directories.
+5. **`gemini-extension.json` + repo topic `gemini-cli-extension`:** Auto-indexed within 24 hours by Google's **Gemini CLI Extensions** gallery.
+6. **`SKILL.md`:** Auto-indexed by **`skills.sh`**, **ClawHub (`clawhub.ai`)**, and **MCP Market (`mcpmarket.com`)**.
 
 Then publish once to the Official MCP Registry so downstream directories (`glama.ai`, `pulsemcp.com`, `mcp.directory`, `apitracker.io`, `claudemcp.org`) sync automatically:
 
@@ -100,7 +100,7 @@ mcp-publisher publish
 
 ## Step 3: Work Through the 5-Wave Directory Sequence (50 High-Signal Picks)
 
-### Wave 1 — Software Review & Entity Verification Sites (Do First)
+### Wave 1: Software Review & Entity Verification Sites (Do First)
 Google's Knowledge Graph, ChatGPT, and Perplexity cross-check these domains when users search *"best X"* or *"X alternatives"*:
 
 | Directory | DR | Submit URL | Notes |
@@ -118,27 +118,27 @@ Google's Knowledge Graph, ChatGPT, and Perplexity cross-check these domains when
 | **LibHunt** | 72 | `https://www.libhunt.com/repo/submit` | Free developer & open-source tool tracking |
 | **Tekpon** | 68 | `https://tekpon.com/get-listed/` | Free SaaS vendor profile · 3–7 business days |
 
-### Wave 2 — MCP & AI Agent Registries
-- **GitHub MCP Registry** (`https://github.com/mcp` · DR 98 — pulls from Official MCP Registry)
-- **OpenAI ChatGPT App Directory** (`https://platform.openai.com/plugins` · DR 93 — verify `/.well-known/openai-apps-challenge`)
+### Wave 2: MCP & AI Agent Registries
+- **GitHub MCP Registry** (`https://github.com/mcp` · DR 98, pulls from Official MCP Registry)
+- **OpenAI ChatGPT App Directory** (`https://platform.openai.com/plugins` · DR 93, verify `/.well-known/openai-apps-challenge`)
 - **Cursor Marketplace** (`https://cursor.com/marketplace/publish` · DR 84) & **`cursor.directory`** (`https://cursor.directory/` · DR 69)
 - **ClawHub Skills Registry** (`https://clawhub.ai/` · DR 83)
 - **Official MCP Registry** (`https://modelcontextprotocol.io/registry/quickstart` · DR 82)
 - **Smithery** (`https://smithery.ai/` · DR 79), **Glama** (`https://glama.ai/mcp/servers` · DR 77), **LobeHub MCP** (`https://lobehub.com/mcp` · DR 76)
 - **`mcpservers.org`** (`https://mcpservers.org/submit` · DR 71) & **MCP Market** (`https://mcpmarket.com/submit` · DR 62)
 
-### Wave 3 — Startup & Developer Launchpads
+### Wave 3: Startup & Developer Launchpads
 - **Hacker News (`Show HN`)** (`https://news.ycombinator.com/submit` · DR 91) & **Product Hunt** (`https://www.producthunt.com/posts/new` · DR 91)
 - **Fazier** (`https://fazier.com/submit` · DR 84), **Twelve Tools** (`https://twelve.tools/submit` · DR 83), **Findly.tools** (`https://findly.tools` · DR 82)
 - **Peerlist Launchpad** (`https://peerlist.io/user/projects/add-project` · DR 78), **BetaList** (`https://betalist.com/submit` · DR 77), **PeerPush** (`https://peerpush.com/submit` · DR 77)
 - **Uneed** (`https://www.uneed.best/submit-a-tool` · DR 76), **LaunchIgniter** (`https://launchigniter.com/submit` · DR 75), **DevHunt** (`https://devhunt.org/account/tools/new` · DR 68)
 
-### Wave 4 — AI Tool Directories
+### Wave 4: AI Tool Directories
 - **ShowMeBest.AI** (`https://showmebest.ai/submit` · DR 77), **Good AI Tools** (`https://goodaitools.com/submit` · DR 75), **AI Agents Directory** (`https://aiagentsdirectory.com/submit-agent` · DR 75)
 - **Supertools / The Rundown** (`https://www.therundown.ai/tools` · DR 72), **Insidr.ai** (`https://www.insidr.ai/submit-tools/` · DR 71), **`aidirectori.es`** (`https://www.aidirectori.es/submit-ai-tool` · DR 71)
 - **AItrendytools** (`https://www.aitrendytools.com/submit` · DR 69), **Foundr.ai** (`https://foundr.ai/submit` · DR 64), **DokeyAI** (`https://dokeyai.com/submit` · DR 62), **Easy With AI** (`https://easywithai.com/submit-tool/` · DR 60)
 
-### Wave 5 — Curated Web Design Galleries (Once Your Landing Page Is Polished)
+### Wave 5: Curated Web Design Galleries (Once Your Landing Page Is Polished)
 - **One Page Love** (`https://onepagelove.com/submit` · DR 79), **Land-book** (`https://land-book.com/submission-guidelines` · DR 66), **Recent Design** (`https://recent.design/signup` · DR 64)
 - **Lapa Ninja** (`mailto:hi@lapa.ninja` · DR 61), **Minimal Gallery** (`https://minimal.gallery/submit/` · DR 61), **Hover States** (`https://www.hoverstat.es/about/` · DR 56)
 - **Curated Design** (`https://www.curated.design/submit` · DR 52), **Footer Design** (`https://www.footer.design/submit` · DR 52), **TOOOLS.design** (`https://www.toools.design/submission` · DR 48)

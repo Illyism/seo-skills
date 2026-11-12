@@ -41,16 +41,16 @@ Do not call `aiseo_add_prompts` from this skill unless the user explicitly asks 
 
 ## Call order (do not skip)
 
-1. `aiseo_list_projects` — pick the project the user named (domain or slug). Never invent a slug.
-2. `aiseo_get_scan` — if `dataStatus` is `no_data`, stop. Say the project needs a scan. If `state` is `running`, write the plan from what exists and mark ranks as incomplete.
-3. `aiseo_list_prompts` — all prompts (no status filter). Keep `summary` and `prompts[].href`. Missing prompts are the coverage queue.
-4. `aiseo_list_sources` — citation URLs and domains. Use `sources[].href` and `sources[].url`.
-5. `aiseo_list_competitors` — prefer `status=TRACKED`. Use `competitors[].href`.
-6. `aiseo_list_snippets` — own brand. Optional: one tracked competitor if that rival leads the cited answers.
+1. `aiseo_list_projects`: pick the project the user named (domain or slug). Never invent a slug.
+2. `aiseo_get_scan`: if `dataStatus` is `no_data`, stop. Say the project needs a scan. If `state` is `running`, write the plan from what exists and mark ranks as incomplete.
+3. `aiseo_list_prompts`: all prompts (no status filter). Keep `summary` and `prompts[].href`. Missing prompts are the coverage queue.
+4. `aiseo_list_sources`: citation URLs and domains. Use `sources[].href` and `sources[].url`.
+5. `aiseo_list_competitors`: prefer `status=TRACKED`. Use `competitors[].href`.
+6. `aiseo_list_snippets`: own brand. Optional: one tracked competitor if that rival leads the cited answers.
 
 Use `href` fields. Prefix with `https://aiseotracker.com`. Do not invent paths, ranks, or competitor names.
 
-## Phase 1 — Snapshot
+## Phase 1: Snapshot
 
 Fill this block from tool JSON only:
 
@@ -72,21 +72,21 @@ Tracked competitors:
 
 Separate **independent editorial listicles** (third-party roundups) from **competitor-owned pages** (vendor blogs and homepages). Pitch only independent lists later.
 
-## Phase 2 — Cluster and canonicalize
+## Phase 2: Cluster and canonicalize
 
 Group missing and opportunity prompts that share one search intent. One cluster = one page unless the user asked otherwise.
 
 For every target, decide **one** of:
 
-- `new` — no existing page covers this intent
-- `rewrite` — same slug, update in place (`updateDate` if the repo uses it)
-- `consolidate` — merge into an existing URL; do not spawn a competing slug
+- `new`: no existing page covers this intent
+- `rewrite`: same slug, update in place (`updateDate` if the repo uses it)
+- `consolidate`: merge into an existing URL; do not spawn a competing slug
 
 Audit the target repo first: existing blog filenames, titles, descriptions, and redirects. Prefer rewrite or consolidate over near-duplicates.
 
 Cap a batch at **5 posts**. If more clusters remain, queue them for the next approved batch.
 
-## Phase 3 — Research (bounded)
+## Phase 3: Research (bounded)
 
 For each approved or proposed slug:
 
@@ -102,7 +102,7 @@ Title and slug:
 - Slug: lowercase, hyphens, 2–5 words, no year unless the query requires freshness.
 - Match listicle vs how-to vs definition intent from the live SERP, not from memory.
 
-## Phase 4 — Stop for approval
+## Phase 4: Stop for approval
 
 Present the campaign and **wait**. Do not write files yet.
 
@@ -136,7 +136,7 @@ phase values: planned | research | draft | validate | done | blocked
 
 On resume: re-run Phase 1 if `lastCheckedAt` changed or the user says data changed. Skip rows at `done`. Read existing files before merging a `blocked` or partial slug.
 
-## Phase 5 — Write (after approval)
+## Phase 5: Write (after approval)
 
 Use available parallel subagents if the host supports them. Grok CLI is optional. Never required.
 
@@ -156,7 +156,7 @@ Images:
 
 Do not deploy, commit, push, email, post publicly, purchase, or add MCP prompts unless the user explicitly asks.
 
-## Phase 6 — Validate
+## Phase 6: Validate
 
 Before you hand off a batch:
 
@@ -167,7 +167,7 @@ Before you hand off a batch:
 - No unresolved placeholders
 - Repo format/lint on touched files when a formatter is available
 
-## Phase 7 — After publication
+## Phase 7: After publication
 
 When the user says the posts are live:
 
