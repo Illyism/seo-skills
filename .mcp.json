@@ -1,12 +1,12 @@
 {
   "mcpServers": {
-    "linkdr": {
-      "type": "http",
-      "url": "https://linkdr.com/mcp"
-    },
     "aiseotracker": {
       "type": "http",
-      "url": "https://aiseotracker.com/mcp"
+      "url": "https://aiseotracker.com/api/agent/mcp"
+    },
+    "scribiz": {
+      "type": "http",
+      "url": "https://scribiz.com/mcp"
     },
     "awesome-tools": {
       "type": "http",
