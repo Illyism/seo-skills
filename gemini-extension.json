@@ -1,15 +1,15 @@
 {
   "name": "seo-skills",
-  "version": "1.2.0",
-  "description": "17 open-source SEO, GEO, backlink, directory submission, and copywriting skills for AI coding agents.",
+  "version": "1.3.0",
+  "description": "30 open-source SEO, GEO, Ahrefs & DataForSEO research, first-hand proof KB, backlink, directory submission, and copywriting skills for AI coding agents.",
   "mcpServers": {
-    "linkdr": {
-      "type": "http",
-      "url": "https://linkdr.com/mcp"
-    },
     "aiseotracker": {
       "type": "http",
-      "url": "https://aiseotracker.com/mcp"
+      "url": "https://aiseotracker.com/api/agent/mcp"
+    },
+    "scribiz": {
+      "type": "http",
+      "url": "https://scribiz.com/mcp"
     },
     "awesome-tools": {
       "type": "http",
