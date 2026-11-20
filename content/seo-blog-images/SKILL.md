@@ -48,9 +48,9 @@ What is this slot for?
 1. **Brief like a designer (1–2 plain sentences).** Long prompts with motif checklists make image models crowd the frame with generic chrome or repeat the same arrows/badges on every post; short plain briefs produce calm, focused visuals.
 2. **Trust over neon clickbait.** Technical and SEO readers immediately distrust neon rim lighting, glowing 3D icons, rockets, robot arms, holographic brains, and YouTube-thumbnail text. Visual pop comes from **quiet matte surfaces** and **crisp dark-vs-light contrast between real recognizable artifacts** (Terminal, GitHub PRs, Search Console, browser/code diffs) — or clean daylight studio/editorial scenes.
 3. **Use 2–3 full-res style references (`--ref`) when the repo has a brand kit.** Let the reference images carry surface, typography, and restraint rather than repeating hex codes and style adjectives in every prompt. Keep clean (unannotated) references separate from annotated references so the model does not auto-stamp arrows or filler subtitle pills onto every image.
-4. **Cover titles & inline contrasts: zero invented numbers.** Only show metrics, domains, or product claims that exist in the post or `seo/kb/`.
-   - `querybench.dev` cover: `"Calm matte dark editorial cover titled 'Postgres CI Branching (2026)' showing a dark terminal running 'qb branch create' beside a crisp white GitHub PR check showing '1.8s · Passed'."`
-   - `invoicekit.io` inline: `"Side-by-side comparison on a matte dark surface: left dark billing statement highlighting '0.8% platform fee' beside a crisp white invoice card reading '$19 flat · API included'."`
+4. **Evergreen copy, zero invented or stale numbers:** Never invent metrics, domains, or product claims, and avoid baking mutable SaaS prices, Top-N rankings, or em-dashes into static covers or inline concept diagrams (prices and rankings change often and force image regenerations). Only put exact numbers in images when illustrating a permanent benchmark or verified proof point.
+   - `querybench.dev` cover: `"Calm matte dark editorial cover titled 'Postgres CI Branching (2026)' showing a dark terminal running 'qb branch create' beside a crisp white GitHub PR check showing 'Branch ready · Passed'."`
+   - `invoicekit.io` inline: `"Side-by-side comparison on a matte dark surface: left dark billing statement highlighting 'Percentage fee per invoice' beside a crisp white invoice card reading 'Flat monthly plan · API included'."`
 
 ## Step 3: Produce the file
 
