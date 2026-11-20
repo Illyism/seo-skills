@@ -7,21 +7,20 @@ metadata:
   version: 1.0.0
 ---
 
-# Autonomous Startup, AI & MCP Directory Submissions
+# Startup, AI tool, and MCP directory submissions
 
-Every software review site, startup launchpad, AI tool directory, MCP registry, and GitHub Awesome list asks for the same ~25 product fields in slightly different character lengths and aspect ratios.
+Review sites, launchpads, AI tool directories, MCP registries, and GitHub Awesome lists all ask for the same ~25 product fields at different lengths and aspect ratios.
 
-Instead of rewriting copy 100 times by hand, prepare **one `submission-manifest.json`**, propagate your repo across **15+ MCP & agent registries in one step**, and work through the **5-wave directory sequence** below while logging every submission idempotently in `submissions-log.json`.
+Prepare one `submission-manifest.json`, add the repo files that 15+ MCP and agent registries index, then work through the 5 waves below. Log every submission in `submissions-log.json` so a rerun skips what is done.
 
-> **Companion resources:**
-> - **Full 850+ Directory Database (14 categories, DR, traffic, free vs. paid & `dofollow`/`nofollow` filters):** [https://linkdr.com/resources/directories](https://linkdr.com/resources/directories)
-> - **Free 71-Point SEO Launch Checklist & 5-Wave Directory Tracker:** [https://il.ly/growth](https://il.ly/growth) (`https://il.ly/growth/directories`)
+Companion resources:
 
----
+- [850+ directory database](https://linkdr.com/resources/directories): 14 categories with DR, traffic, price, and `dofollow`/`nofollow` filters.
+- [71-point SEO launch checklist and directory tracker](https://il.ly/growth) (`https://il.ly/growth/directories`).
 
-## Step 1: Prepare `submission-manifest.json` Once
+## Step 1: Prepare `submission-manifest.json` once
 
-Before opening any form or Pull Request, build `submission-manifest.json` in your project root (inspecting the codebase, `package.json`, landing page metadata, and public `/images` assets first, and asking the user only for missing facts):
+Before opening any form or pull request, build `submission-manifest.json` in the project root. Read the codebase, `package.json`, landing page metadata, and public `/images` assets first, and ask the user only for missing facts:
 
 ```json
 {
@@ -75,11 +74,9 @@ Before opening any form or Pull Request, build `submission-manifest.json` in you
 }
 ```
 
----
+## Step 2: One repo, 15+ MCP and agent registries (if you ship an MCP server or `SKILL.md`)
 
-## Step 2: One Repo → 15+ MCP & Agent Registries (If You Ship an MCP Server or `SKILL.md`)
-
-Adding six tiny files to your public GitHub repository lets agent marketplaces index your product automatically:
+Six small files in your public GitHub repo let agent marketplaces index the product:
 
 1. **`server.json`:** Keep `description` **strictly ≤ 100 characters** or the Official MCP Registry validator rejects it.
 2. **`glama.json`:** `{ "$schema": "https://glama.ai/mcp/schemas/server.json", "maintainers": ["your-github-handle"] }` (required to claim on Glama and pass `awesome-mcp-servers` CI).
@@ -96,11 +93,9 @@ mcp-publisher login github
 mcp-publisher publish
 ```
 
----
+## Step 3: Work through the 5 waves (50 directories)
 
-## Step 3: Work Through the 5-Wave Directory Sequence (50 High-Signal Picks)
-
-### Wave 1: Software Review & Entity Verification Sites (Do First)
+### Wave 1: Software review sites (do first)
 Google's Knowledge Graph, ChatGPT, and Perplexity cross-check these domains when users search *"best X"* or *"X alternatives"*:
 
 | Directory | DR | Submit URL | Notes |
@@ -118,7 +113,7 @@ Google's Knowledge Graph, ChatGPT, and Perplexity cross-check these domains when
 | **LibHunt** | 72 | `https://www.libhunt.com/repo/submit` | Free developer & open-source tool tracking |
 | **Tekpon** | 68 | `https://tekpon.com/get-listed/` | Free SaaS vendor profile · 3–7 business days |
 
-### Wave 2: MCP & AI Agent Registries
+### Wave 2: MCP and AI agent registries
 - **GitHub MCP Registry** (`https://github.com/mcp` · DR 98, pulls from Official MCP Registry)
 - **OpenAI ChatGPT App Directory** (`https://platform.openai.com/plugins` · DR 93, verify `/.well-known/openai-apps-challenge`)
 - **Cursor Marketplace** (`https://cursor.com/marketplace/publish` · DR 84) & **`cursor.directory`** (`https://cursor.directory/` · DR 69)
@@ -127,43 +122,41 @@ Google's Knowledge Graph, ChatGPT, and Perplexity cross-check these domains when
 - **Smithery** (`https://smithery.ai/` · DR 79), **Glama** (`https://glama.ai/mcp/servers` · DR 77), **LobeHub MCP** (`https://lobehub.com/mcp` · DR 76)
 - **`mcpservers.org`** (`https://mcpservers.org/submit` · DR 71) & **MCP Market** (`https://mcpmarket.com/submit` · DR 62)
 
-### Wave 3: Startup & Developer Launchpads
+### Wave 3: Startup and developer launchpads
 - **Hacker News (`Show HN`)** (`https://news.ycombinator.com/submit` · DR 91) & **Product Hunt** (`https://www.producthunt.com/posts/new` · DR 91)
 - **Fazier** (`https://fazier.com/submit` · DR 84), **Twelve Tools** (`https://twelve.tools/submit` · DR 83), **Findly.tools** (`https://findly.tools` · DR 82)
 - **Peerlist Launchpad** (`https://peerlist.io/user/projects/add-project` · DR 78), **BetaList** (`https://betalist.com/submit` · DR 77), **PeerPush** (`https://peerpush.com/submit` · DR 77)
 - **Uneed** (`https://www.uneed.best/submit-a-tool` · DR 76), **LaunchIgniter** (`https://launchigniter.com/submit` · DR 75), **DevHunt** (`https://devhunt.org/account/tools/new` · DR 68)
 
-### Wave 4: AI Tool Directories
+### Wave 4: AI tool directories
 - **ShowMeBest.AI** (`https://showmebest.ai/submit` · DR 77), **Good AI Tools** (`https://goodaitools.com/submit` · DR 75), **AI Agents Directory** (`https://aiagentsdirectory.com/submit-agent` · DR 75)
 - **Supertools / The Rundown** (`https://www.therundown.ai/tools` · DR 72), **Insidr.ai** (`https://www.insidr.ai/submit-tools/` · DR 71), **`aidirectori.es`** (`https://www.aidirectori.es/submit-ai-tool` · DR 71)
 - **AItrendytools** (`https://www.aitrendytools.com/submit` · DR 69), **Foundr.ai** (`https://foundr.ai/submit` · DR 64), **DokeyAI** (`https://dokeyai.com/submit` · DR 62), **Easy With AI** (`https://easywithai.com/submit-tool/` · DR 60)
 
-### Wave 5: Curated Web Design Galleries (Once Your Landing Page Is Polished)
+### Wave 5: Web design galleries (once the landing page is polished)
 - **One Page Love** (`https://onepagelove.com/submit` · DR 79), **Land-book** (`https://land-book.com/submission-guidelines` · DR 66), **Recent Design** (`https://recent.design/signup` · DR 64)
 - **Lapa Ninja** (`mailto:hi@lapa.ninja` · DR 61), **Minimal Gallery** (`https://minimal.gallery/submit/` · DR 61), **Hover States** (`https://www.hoverstat.es/about/` · DR 56)
 - **Curated Design** (`https://www.curated.design/submit` · DR 52), **Footer Design** (`https://www.footer.design/submit` · DR 52), **TOOOLS.design** (`https://www.toools.design/submission` · DR 48)
 
-> Need all **856+ vetted directories** across 14 categories with DR, organic traffic, link type (`dofollow`/`nofollow`), and direct submit links? Unlock the full filterable database with any backlink order at **[linkdr.com/resources/directories](https://linkdr.com/resources/directories)**.
+The full database of 856+ directories comes with any backlink order at [linkdr.com/resources/directories](https://linkdr.com/resources/directories).
 
----
+## Step 4: Rules for agent submissions
 
-## Step 4: Hard Operational Rules for Autonomous Agent Submissions
+When you run browser or GitHub PR submissions as an agent, follow all 10:
 
-When running browser or GitHub PR submissions as an AI coding agent, enforce all 10 rules:
-
-1. **Zero Unapproved Spend:** Submit only to free tiers unless the user explicitly approves a paid fast-track checkout. If a submission lands on a Stripe/PayPal paywall with no free path, record `status: "skipped_paid_only"` and continue.
-2. **Privacy & Anti-Scraper Contact Hygiene:** Directories get scraped across 500+ aggregator sites. Never submit personal phone numbers, home/registered-agent street addresses, or internal holding LLC names. Always use the **product brand name**, `"Media Relations"`, a generic role email (`press@<domain>`), empty phone/address fields, and `https://<domain>/contact`.
-3. **Human-Written Factual Copy:** Never use em-dashes, emojis, or hype buzzwords (*"unleash"*, *"revolutionize"*, *"seamless"*, *"game-changing"*). Editors and Awesome-list maintainers auto-reject AI-sounding marketing fluff.
-4. **Check Agent-First Endpoints Before Browser Forms:** Check whether the directory exposes a direct JSON/MCP/agent endpoint first (for example `https://awesome.tools/api/tools/submit`, `/agent`, `/api/mcp`, or `/llms.txt`) before driving a browser UI.
-5. **Strict Anti-Honeypot Filter:** Never fill any input that is hidden (`!isVisible()`, `aria-hidden="true"`, `tabindex="-1"`, `type="hidden"`, `style*="scale(0)"`, `display:none`) or carries spam-trap names/labels (`opl_hp_field`, `_honeypot`, `bot-field`, `website_url` alongside a visible `url` field, or *"Leave this empty"*).
-6. **Unwrap Cross-Origin Embedded Forms:** If a `/submit` page renders an embedded widget (`[data-paperform-id]`, `tally.so`, `typeform.com`, `airtable.com`, `embed.fillout.com`), open the standalone form URL directly in a top-level tab so inputs and file uploads work cleanly.
-7. **Asset Readiness:** Keep `512×512` PNG + `48×48` WebP logos, a `1200×630` OG image, and three `1280×800` screenshots (`<300 KB` WebP + PNG) ready before starting batch submissions.
-8. **Close Email Verification & OTP Loops:** Poll or check `press@<domain>` for magic links and 6-digit verification codes immediately so listings don't stall in `unverified` state.
-9. **GitHub Awesome PR Etiquette:** Before opening any Awesome-list PR:
+1. **No unapproved spend.** Submit only to free tiers unless the user explicitly approves a paid fast-track checkout. If a submission lands on a Stripe/PayPal paywall with no free path, record `status: "skipped_paid_only"` and continue.
+2. **Contact privacy.** Directories get scraped across 500+ aggregator sites. Never submit personal phone numbers, home/registered-agent street addresses, or internal holding LLC names. Always use the **product brand name**, `"Media Relations"`, a generic role email (`press@<domain>`), empty phone/address fields, and `https://<domain>/contact`.
+3. **Factual copy.** Never use em-dashes, emojis, or hype buzzwords (*"unleash"*, *"revolutionize"*, *"seamless"*, *"game-changing"*). Editors and Awesome-list maintainers reject copy that reads as AI marketing.
+4. **Agent endpoints before browser forms.** Check whether the directory exposes a JSON, MCP, or agent endpoint (for example `https://awesome.tools/api/tools/submit`, `/agent`, `/api/mcp`, or `/llms.txt`) before driving a browser UI.
+5. **Honeypots.** Never fill any input that is hidden (`!isVisible()`, `aria-hidden="true"`, `tabindex="-1"`, `type="hidden"`, `style*="scale(0)"`, `display:none`) or carries spam-trap names/labels (`opl_hp_field`, `_honeypot`, `bot-field`, `website_url` alongside a visible `url` field, or *"Leave this empty"*).
+6. **Embedded forms.** If a `/submit` page renders an embedded widget (`[data-paperform-id]`, `tally.so`, `typeform.com`, `airtable.com`, `embed.fillout.com`), open the standalone form URL directly in a top-level tab so inputs and file uploads work.
+7. **Assets.** Keep `512×512` PNG + `48×48` WebP logos, a `1200×630` OG image, and three `1280×800` screenshots (`<300 KB` WebP + PNG) ready before starting batch submissions.
+8. **Email verification.** Check `press@<domain>` for magic links and 6-digit codes right away so listings don't stall in `unverified` state.
+9. **GitHub Awesome PRs.** Before opening any Awesome-list PR:
    - Read `CONTRIBUTING.md`, `.github/PULL_REQUEST_TEMPLATE.md`, `.github/workflows/`, and the last 3 merged PRs. Respect any repo that restricts AI-submitted PRs or SaaS products.
    - Edit the real source-of-truth file (`README.md`, `applications.json`, `data/*.csv`, or multi-locale READMEs), match exact ordering (alphabetical vs. end-of-section) and dash/punctuation style, and strip all `?ref=` / UTM parameters.
    - Use a collision-safe fork name (`<repo>-<upstream-owner>`).
-10. **Idempotent `submissions-log.json` Tracking:** Check `submissions-log.json` before every target and append a structured receipt after each attempt:
+10. **`submissions-log.json`.** Check `submissions-log.json` before every target and append a structured receipt after each attempt:
 
 ```json
 {

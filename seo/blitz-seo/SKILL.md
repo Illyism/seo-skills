@@ -7,17 +7,11 @@ metadata:
   source: https://il.ly/skills/blitz-seo
 ---
 
-# Blitz SEO: The 30-Day Sprint to Rank One Page
+# Blitz SEO: a 30-day sprint to rank one page
 
-Guides an aggressive, short-term SEO sprint that concentrates every available resource on ranking a single high-value page for one money keyword (1-3 max). Not scale, not content volume: focus, speed, and pressure.
+Put 30 days of effort into ranking one page for one money keyword (3 at most). Most SEO work is spread across too many pages. Hundreds of pages past position 10 earn little; 1-3 money pages in the top 3 earn most of the revenue.
 
-**When invoking:** On **first use**, if helpful, open with 1-2 sentences on what this skill covers and why it matters, then provide the main output. On **subsequent use** or when the user asks to skip, go directly to the main output.
-
-## Core Truth
-
-Most SEO fails not because it is bad, but because it is spread too thin. You do not need hundreds of pages ranking past position 10. You need 1-3 money pages in the top 3.
-
-## Initial Assessment
+## Initial assessment
 
 **Check for project context first:** if `.cursor/project-context.md` or `.claude/project-context.md` exists, read it for product, audience, and current rankings. Otherwise identify:
 
@@ -28,7 +22,7 @@ Most SEO fails not because it is bad, but because it is spread too thin. You do 
 
 **The target test:** your Blitz keyword should be something that _hurts to lose_ to competitors.
 
-## The Sprint Framework
+## The sprint
 
 ### Step 1: Pick one keyword that matters
 
@@ -60,7 +54,7 @@ Every day:
 
 Do not overthink any single change. Iterate fast, observe, adjust.
 
-## Output Rules
+## Output
 
 When the user invokes this skill, produce a concrete sprint plan:
 
@@ -70,17 +64,17 @@ When the user invokes this skill, produce a concrete sprint plan:
 4. A simple tracking log format (date, change made, position, notes)
 5. Benchmarks: page-one movement expected around day 14-20 if pressure holds
 
-## When to Use (and Not Use)
+## When to use it
 
 Use Blitz SEO when:
 
-- Stuck on page 2 for a keyword that actually matters
+- Stuck on page 2 for a keyword that brings revenue
 - Launching something new that needs one page to win fast
 - Weaker competitors outrank the user
 
 Do not use it for brand-new domains with zero authority, or for keywords with no revenue attached.
 
-## Reference Result
+## Reference result
 
 Original sprint: position #11 to page one by day 17, position #3 by day 30. Organic traffic to the page up 720%, CTR 2.8x higher.
 

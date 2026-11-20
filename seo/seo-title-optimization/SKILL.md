@@ -7,15 +7,13 @@ metadata:
   source: https://il.ly/skills/seo-title-optimization
 ---
 
-# SEO Title Optimization
+# SEO title optimization
 
-Use this skill to improve page titles for search rankings and click-through rate.
+Improve page titles for rankings and click-through rate.
 
-## Core Rule
+## Core rule
 
-Treat the SERP as the brief.
-
-Do not write titles from vibes. Identify the target query, study what already ranks when possible, then write the clearest title that matches the page and search intent.
+Treat the SERP as the brief. Identify the target query, study what already ranks when possible, then write the clearest title that matches the page and search intent.
 
 ## Title Formula
 
