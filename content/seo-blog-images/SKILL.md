@@ -45,13 +45,12 @@ What is this slot for?
 
 ## Step 2: Prompt rules (Path A only)
 
-1. **12-22 words.** Long prompts make image models crowd the frame with sub-panels and tiny unreadable text; short prompts produce one bold subject.
-2. **No dark icon-box templates.** Never prompt for `"cards with glowing wireframe icons"`, `"holographic brain"`, `"dark monochrome desk with ice-blue highlights"`, or trophy metaphors. Describe tangible objects under bright, high-contrast light.
-3. **Cover headline badge: 3-6 quoted words,** using the target query plus a year or format badge, kept inside the center 80% of the frame so the 1.91:1 OG crop on X and LinkedIn does not cut it.
-   - `querybench.dev`: `"Crisp daylight 3D studio, cobalt Postgres server rack splitting into instant branches, bold headline 'POSTGRES CI BRANCHING', badge '2026 BENCHMARK'."`
-   - `deployfast.dev`: `"High-contrast isometric shipping container launching from a GitHub terminal into orbit, bold text '11 BEST NEXT.JS HOSTS', badge '2026 TESTED'."`
-4. **Inline contrast labels: 2-4 quoted labels, only real numbers.** Any figure in a label must exist in the post or `seo/kb/`.
-   - `invoicekit.io`: `"Split studio scene: tangled red paper receipts labeled '0.8% BILLING FEE' versus a clean cobalt API card labeled '$19 FLAT', crisp daylight."`
+1. **Brief like a designer (1–2 plain sentences).** Long prompts with motif checklists make image models crowd the frame with generic chrome or repeat the same arrows/badges on every post; short plain briefs produce calm, focused visuals.
+2. **Trust over neon clickbait.** Technical and SEO readers immediately distrust neon rim lighting, glowing 3D icons, rockets, robot arms, holographic brains, and YouTube-thumbnail text. Visual pop comes from **quiet matte surfaces** and **crisp dark-vs-light contrast between real recognizable artifacts** (Terminal, GitHub PRs, Search Console, browser/code diffs) — or clean daylight studio/editorial scenes.
+3. **Use 2–3 full-res style references (`--ref`) when the repo has a brand kit.** Let the reference images carry surface, typography, and restraint rather than repeating hex codes and style adjectives in every prompt. Keep clean (unannotated) references separate from annotated references so the model does not auto-stamp arrows or filler subtitle pills onto every image.
+4. **Cover titles & inline contrasts: zero invented numbers.** Only show metrics, domains, or product claims that exist in the post or `seo/kb/`.
+   - `querybench.dev` cover: `"Calm matte dark editorial cover titled 'Postgres CI Branching (2026)' showing a dark terminal running 'qb branch create' beside a crisp white GitHub PR check showing '1.8s · Passed'."`
+   - `invoicekit.io` inline: `"Side-by-side comparison on a matte dark surface: left dark billing statement highlighting '0.8% platform fee' beside a crisp white invoice card reading '$19 flat · API included'."`
 
 ## Step 3: Produce the file
 
