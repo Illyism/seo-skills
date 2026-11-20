@@ -22,7 +22,7 @@
   <a href="#faq">FAQ</a>
 </p>
 
-![SEO Skills for Claude Code, Cursor, and OpenAI Codex: installable SKILL.md workflows that turn AI coding agents into Google #1 rankings](assets/seo-skills-hero.jpg)
+![30 Open-Source SEO Skills installed with npx skills add Illyism/seo-skills: terminal install, merged GitHub pull request unblocking Bing and AI crawlers, and rising Google Search Console clicks](assets/seo-skills-hero.jpg)
 
 ---
 
@@ -66,7 +66,7 @@ Every skill in `Illyism/seo-skills` is built to **end in a concrete, shippable o
 - **Focused 30-day execution:** Instead of spreading effort across 200 low-intent keywords, `blitz-seo` concentrates technical fixes, internal links, SERP proof, and authority links onto **one money page** until it reaches Page 1.
 - **Google + AI Search (GEO / AEO) together:** Map the exact prompts buyers ask ChatGPT, Perplexity, Gemini, and Google AI Overviews, measure live citation share, and ship pages and third-party placements that close missing prompt clusters.
 
-![SEO Skills for AI Coding Agents: ship technical fixes, SERP-backed content refreshes, authority backlinks, and Google #1 rankings](assets/seo-skills-output-engine.webp)
+![Concrete mergeable SEO outputs shipped by Illyism/seo-skills: robots.ts crawler fix, verified seo/kb/proof folder, competitor /vs/ pricing page, and ChatGPT and Perplexity citations](assets/seo-skills-output-engine.webp)
 
 ---
 
