@@ -7,66 +7,60 @@ metadata:
   source: https://il.ly/skills/blitz-copy
 ---
 
-# Blitz Copy: The Dopamine Copywriting System
+# Blitz Copy: hook, spike, payoff
 
-Guides high-conversion copywriting: hijack attention, trigger desire, and drive action fast using dopamine psychology. Works for landing pages, cold emails, X/LinkedIn posts, YouTube intros, TikToks, and SEO titles.
+Copy for landing pages, cold emails, X and LinkedIn posts, video intros, and SEO titles. People buy what excites them before they buy what they understand, so the copy triggers a feeling first and explains second.
 
-**When invoking:** On **first use**, if helpful, open with 1-2 sentences on what this skill covers and why it matters, then provide the main output. On **subsequent use** or when the user asks to skip, go directly to the main output.
-
-## Core Truth
-
-People don't buy what they understand. They buy what excites them. **Emotion, not explanation, drives action.**
-
-Your copy must interrupt, ignite, and provoke in seconds. The reader should think:
+The reader should think:
 
 > "Wait. That's me. I need this. Why haven't I seen this before?"
 
 If the copy explains features before triggering a feeling, rewrite it.
 
-## Initial Assessment
+## Before you write
 
-Blitz Copy only works if you know the target cold. **If audience research hasn't been done yet**, use the [understand-customers](https://il.ly/skills/understand-customers) skill first to map the Nightmare Scenario, Magic Wand Outcome, inner monologue, and language bank.
+You need to know the reader first. If audience research hasn't been done yet, use the [understand-customers](https://il.ly/skills/understand-customers) skill first to map the Nightmare Scenario, Magic Wand Outcome, inner monologue, and language bank.
 
 **Check for project context:** if `.cursor/project-context.md` or `.claude/project-context.md` exists, read it for product, audience, and positioning. Otherwise, ask the user or infer from the given context before writing.
 
-## The Formula: Hook → Spike → Payoff
+## The formula
 
-Write in this exact sequence:
+Write in this order:
 
-1. **Identity Trigger 🧠:** Make them feel instantly recognized.
+1. **Identity trigger.** Make them feel recognized.
    > "You're not disorganized. You're drowning in 42 browser tabs and guilt."
-2. **Emotional Hook 🔥:** Surface a hidden frustration or desire.
+2. **Emotional hook.** Name a frustration or desire they haven't said out loud.
    > "You've tried every productivity app. None of them stuck past day 3."
-3. **Mini Cliffhanger ❓:** Build tension, keep them reading.
+3. **Cliffhanger.** Build tension so they keep reading.
    > "We tested this on 1,324 people. Here's what happened next..."
-4. **Specific Outcome 💡:** Promise a concrete, desirable payoff.
+4. **Specific outcome.** Promise a concrete payoff.
    > "Reclaim 2 hours a day, without changing your habits."
 
-## Dopamine Triggers
+## Triggers
 
-Pull at least 2-3 of these neurochemical levers per piece:
+Use 2-3 per piece:
 
-- 🔍 **Curiosity:** "What am I missing?"
-- 👀 **FOMO:** "Others are getting ahead, am I?"
-- 🎁 **Surprise:** "Wait, I didn't expect that!"
-- 😮‍💨 **Relief:** "Finally, a solution that just works."
-- ⏰ **Urgency:** "If I don't act now, I'll lose out."
-- 👍 **Validation:** "This is for people like me."
-- 👥 **Belonging:** "I want to be part of this."
-- 💪 **Power / Advantage:** "I finally found an edge no one else knows."
-- 🤫 **Unique Secret:** "Access to something exclusive or hidden."
-- ⚡ **Exclusivity:** "Being among the first, or the only ones, to benefit."
+- **Curiosity:** "What am I missing?"
+- **FOMO:** "Others are getting ahead, am I?"
+- **Surprise:** "Wait, I didn't expect that!"
+- **Relief:** "Finally, a solution that just works."
+- **Urgency:** "If I don't act now, I'll lose out."
+- **Validation:** "This is for people like me."
+- **Belonging:** "I want to be part of this."
+- **Power / Advantage:** "I finally found an edge no one else knows."
+- **Unique Secret:** "Access to something exclusive or hidden."
+- **Exclusivity:** "Being among the first, or the only ones, to benefit."
 
-## Output Rules
+## Output rules
 
 - Lead with the reader's identity or pain, never the product name.
-- Short sentences. Visceral and specific: numbers, timeframes, named frustrations.
+- Short sentences with numbers, timeframes, and named frustrations.
 - No feature without an emotional payoff attached to it.
-- Every piece ends with a concrete outcome the reader can taste.
+- Every piece ends with a concrete outcome.
 - Deliver 2-3 variants and label which triggers each one uses.
 - Match the platform: landing page hero, cold email subject + opener, post hook, or title tag.
 
-## Examples (Before → After)
+## Examples (before → after)
 
 **GenPPT**
 

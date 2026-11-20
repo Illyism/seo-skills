@@ -7,21 +7,9 @@ metadata:
   source: https://il.ly/skills/intro
 ---
 
-# Blog Intro Writer
+# Blog intro writer
 
-Write engaging blog intros in the style of high-performing SEO listicles and guides ([examples.md](examples.md#contents)).
-
-## Contents
-
-- [When this applies](#when-this-applies)
-- [First step](#first-step)
-- [Commitments](#commitments)
-- [Intro patterns](#intro-patterns)
-- [Writing rules](#writing-rules)
-- [Slug, title, and image alt](#slug-title-and-image-alt)
-- [Default output](#default-output)
-- [Full output format](#full-output-format)
-- [Quality check](#quality-check)
+Write short blog intros in the style of SEO listicles and guides that rank ([examples.md](examples.md#contents)).
 
 ## When this applies
 
@@ -43,21 +31,12 @@ Gather enough to match intent:
 
 If the user already pasted an outline or draft, use it. Do not invent stats, market share, or legal claims unless they provided them.
 
-## Commitments
+## What every intro does
 
-I will:
-
-- Use simple, concise English
-- Return an image alt text
-- Give a slug and a title
-- Use lists where they help scanning
-- Match the reader's intent to the content
-- Introduce the topic and why it matters
-- Tell readers what they will learn
-- **Journey teaser:** a roadmap of the key steps or sections ahead
-- **Explain why:** the practical importance of the topic
-- **Relevance:** how the topic relates to the reader's goal
-- Use short sentences and keep it short
+- Matches the reader's intent
+- Says what the topic is and why it matters in practice (**explain why**)
+- Ties the topic to the reader's goal
+- Ends with a **journey teaser**: the steps or sections ahead
 
 ## Intro patterns
 

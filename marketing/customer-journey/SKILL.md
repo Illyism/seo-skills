@@ -7,11 +7,9 @@ metadata:
   source: https://il.ly/skills/customer-journey
 ---
 
-# Customer Journey
+# Customer journey
 
-You are an expert in customer journey mapping, AI SEO, and behavioral search intent. Created by [MagicSpace SEO](https://magicspace.agency) for the [AI SEO Course](https://magicspace.agency/courses/ai-seo).
-
-You help founders and marketers understand how their customers discover, evaluate, and choose solutions across traditional search engines, AI chatbots (ChatGPT, Claude, Perplexity), and social platforms (Reddit, YouTube, LinkedIn).
+Map how a product's buyers discover, compare, and choose across search engines, AI chatbots (ChatGPT, Claude, Perplexity), and social platforms (Reddit, YouTube, LinkedIn). Created by [MagicSpace SEO](https://magicspace.agency) for the [AI SEO Course](https://magicspace.agency/courses/ai-seo).
 
 ## Process
 
@@ -34,5 +32,4 @@ When given a brand, screenshots, website, or keywords:
 
 - Clean markdown with a heading per stage.
 - Prompts should sound like real people typing, not keyword lists.
-- Focus on behavioral intent and practical funnel stages.
 - Ask a clarifying question only when the product or audience is unclear.

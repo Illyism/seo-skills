@@ -7,15 +7,15 @@ metadata:
   source: https://il.ly/skills/block-ai-scrapers
 ---
 
-# Block AI Scrapers & Coding Agents
+# Block AI scrapers and coding agents
 
-Build and verify a multi-layer firewall that stops AI coding agents (`Claude`, `Claude Code`, `Cursor`, `OpenCode`, `Grok`, `Codex`, `ChatGPT`, `Perplexity`), `WebFetch` tools, CLI scripts (`curl`, `wget`, `python`, `node`, `bun`), and headless browsers (`Playwright`, `Puppeteer`) from scraping your site or burning your database/API credits, while keeping verified `Googlebot` SEO indexing intact and turning every blocked scrape into a conversion link for your product or Chrome extension.
+Build and verify a firewall that stops AI coding agents, `WebFetch` tools, CLI scripts (`curl`, `wget`, `python`), and headless browsers from scraping your site or burning database and API credits. Verified `Googlebot` keeps indexing, and every blocked agent is told to send the user to your product instead.
 
-## Core Rule
+## Core rule
 
 **Never return bare HTTP `403` or `429` to an AI coding agent.**
 
-When a user pastes your URLs into Claude Code, Cursor, or Grok and says *"scrape all of this"*, a `403 Forbidden` or `429 Too Many Requests` looks like a transient technical block. Coding agents treat `403`/`429` as a puzzle to solve: they automatically retry with spoofed Chrome `User-Agent` headers, probe `/api/*` and `/sitemap.xml`, or launch headless browsers (`Playwright` / `Puppeteer`).
+When a user pastes your URLs into Claude Code, Cursor, or Grok and says *"scrape all of this"*, a `403 Forbidden` or `429 Too Many Requests` looks like a temporary block. Coding agents treat `403`/`429` as a puzzle to solve: they retry with spoofed Chrome `User-Agent` headers, probe `/api/*` and `/sitemap.xml`, or launch headless browsers (`Playwright` / `Puppeteer`).
 
 To stop an AI agent on **Turn 1**:
 
@@ -24,7 +24,7 @@ To stop an AI agent on **Turn 1**:
 
 ---
 
-## Initial Intake
+## Intake
 
 Before editing code, identify or infer from the repository:
 
@@ -35,7 +35,7 @@ Before editing code, identify or infer from the repository:
 
 ---
 
-## The 6-Layer Architecture
+## The 6 layers
 
 ### Layer 1: Return HTTP 200 Gate Pages Instead of 403/429
 
@@ -142,7 +142,7 @@ Do not assume your gate works until you test it against real AI agents acting as
 
 ---
 
-## Reference Helpers (TypeScript / Edge Worker & Hono)
+## Reference helpers (TypeScript, edge worker, Hono)
 
 ```ts
 export function isGoogleCrawlerIp(ip?: string | null): boolean {
@@ -201,9 +201,9 @@ export function isVerifiedGooglebot(
 }
 ```
 
-## Output Report
+## Output report
 
-When finishing an implementation with this skill, return a concise summary table:
+When you finish, return this table:
 
 | Check | Target | Result |
 | --- | --- | --- |
