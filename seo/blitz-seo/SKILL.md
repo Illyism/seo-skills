@@ -76,7 +76,7 @@ Do not use it for brand-new domains with zero authority, or for keywords with no
 
 ## Reference result
 
-Original sprint: position #11 to page one by day 17, position #3 by day 30. Organic traffic to the page up 720%, CTR 2.8x higher.
+Original sprint: position #11 to Page 1 by day 17, on a domain Google already trusted.
 
 ## Related
 
